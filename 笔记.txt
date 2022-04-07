@@ -1,0 +1,9 @@
+Android studio 鼠标指示器变成黑色方块解决方面：
+
+1、关闭当前界面重新打开。
+
+2、点击 Shift + insert ，或者 单击 insert 。
+
+3、如果继续出现黑色方块且代码不可编辑：
+
+Tools-> Vim Emulator 去掉勾选就行

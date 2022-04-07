@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:orientation="horizontal" 默认水平
+android:columnCount="3"  限制一行三个【行数】
+
+android:orientation="vertical"
+android:rowCount="3" 每列显示三个
+-->
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <Button
+        android:text="第一个"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </Button>
+<!--   联合使用：
+        android:layout_row="1" 第二个以后从【第二行】开始
+        android:layout_column="0" 第二个排在【第一列】
+-->
+    <Button
+        android:text="第二个"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+
+        >
+
+    </Button>
+<!--    第三个按钮、；第0行第1列；还可以覆盖-->
+    <Button
+        android:text="第三个"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+
+        >
+
+    </Button>
+    <Button
+        android:text="第四个"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        >
+
+    </Button>
+<!--android:layout_columnWeight="1"分配剩余空间，占满-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="第五个"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+
+        >
+
+    </Button>
+<!--    横跨几列几行，layout_columnSpan配合layout_gravity使用-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center"
+        android:text="第六个"
+        >
+
+    </Button>
+
+
+
+</GridLayout>

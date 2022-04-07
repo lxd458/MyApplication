@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--android:collapseColumns="1" 隐藏第二个按钮。从0开始
+  android:stretchColumns="2" 拉伸第三个按钮【必须有剩余空间】
+  android:shrinkColumns="1" 必须超出单元格，才能进行收缩
+-->
+<TableLayout android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#00ffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<!--    格子效果-->
+ <TableRow
+     >
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="第一个"
+
+         />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="第二个"
+
+         ></Button>
+     <Button
+         android:text="第三个"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         ></Button>
+ </TableRow>
+<!--///////////////////////////-->
+    <Button
+        android:text="第1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        ></Button>
+    <Button
+        android:text="第2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        ></Button>
+
+
+</TableLayout>

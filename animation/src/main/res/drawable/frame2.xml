@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <item android:drawable="@drawable/f51" android:duration="100"/>
+       <item android:drawable="@drawable/f52" android:duration="100"/>
+       <item android:drawable="@drawable/f53" android:duration="100"/>
+       <item android:drawable="@drawable/f54" android:duration="100"/>
+       <item android:drawable="@drawable/f55" android:duration="100"/>
+       <item android:drawable="@drawable/f56" android:duration="100"/>
+       <item android:drawable="@drawable/f57" android:duration="100"/>
+       <item android:drawable="@drawable/f58" android:duration="100"/>
+       <item android:drawable="@drawable/f59" android:duration="100"/>
+       <item android:drawable="@drawable/f60" android:duration="100"/>
+
+       <item android:drawable="@drawable/f61" android:duration="100"/>
+       <item android:drawable="@drawable/f62" android:duration="100"/>
+       <item android:drawable="@drawable/f63" android:duration="100"/>
+       <item android:drawable="@drawable/f64" android:duration="100"/>
+       <item android:drawable="@drawable/f65" android:duration="100"/>
+       <item android:drawable="@drawable/f66" android:duration="100"/>
+       <item android:drawable="@drawable/f67" android:duration="100"/>
+       <item android:drawable="@drawable/f68" android:duration="100"/>
+       <item android:drawable="@drawable/f69" android:duration="100"/>
+       <item android:drawable="@drawable/f70" android:duration="100"/>
+
+       <item android:drawable="@drawable/f71" android:duration="100"/>
+       <item android:drawable="@drawable/f72" android:duration="100"/>
+       <item android:drawable="@drawable/f73" android:duration="100"/>
+       <item android:drawable="@drawable/f74" android:duration="100"/>
+       <item android:drawable="@drawable/f75" android:duration="100"/>
+       <item android:drawable="@drawable/f76" android:duration="100"/>
+       <item android:drawable="@drawable/f77" android:duration="100"/>
+       <item android:drawable="@drawable/f78" android:duration="100"/>
+       <item android:drawable="@drawable/f79" android:duration="100"/>
+       <item android:drawable="@drawable/f80" android:duration="100"/>
+
+       <item android:drawable="@drawable/f81" android:duration="100"/>
+       <item android:drawable="@drawable/f82" android:duration="100"/>
+       <item android:drawable="@drawable/f83" android:duration="100"/>
+       <item android:drawable="@drawable/f84" android:duration="100"/>
+       <item android:drawable="@drawable/f85" android:duration="100"/>
+       <item android:drawable="@drawable/f86" android:duration="100"/>
+       <item android:drawable="@drawable/f87" android:duration="100"/>
+       <item android:drawable="@drawable/f88" android:duration="100"/>
+       <item android:drawable="@drawable/f89" android:duration="100"/>
+       <item android:drawable="@drawable/f90" android:duration="100"/>
+
+       <item android:drawable="@drawable/f91" android:duration="100"/>
+       <item android:drawable="@drawable/f92" android:duration="100"/>
+       <item android:drawable="@drawable/f93" android:duration="100"/>
+       <item android:drawable="@drawable/f94" android:duration="100"/>
+       <item android:drawable="@drawable/f95" android:duration="100"/>
+       <item android:drawable="@drawable/f96" android:duration="100"/>
+       <item android:drawable="@drawable/f97" android:duration="100"/>
+       <item android:drawable="@drawable/f98" android:duration="100"/>
+       <item android:drawable="@drawable/f99" android:duration="100"/>
+       <item android:drawable="@drawable/f100" android:duration="100"/>
+
+
+</animation-list>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--orientation="vertical" 默认垂直居中在左
+orientation="horizontal" 默认顶部一排
+padding 内部与外部的间距，四周都有
+paddingLeft/Right/Top/Bottom
+ -->
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- layout_alignParentRight  右对齐
+     layout_alignParentLeft 默认
+     layout_alignParentTOP 顶部对齐
+     layout_alignParentBottom 底部对齐
+-->
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+
+        android:background="#00ff00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        ></RelativeLayout>
+<!--   layout_centerInParent 全局中心位置
+      layout_centerInParent
+
+    -->
+    <RelativeLayout
+        android:layout_centerInParent="true"
+
+        android:background="#ff0000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        ></RelativeLayout>
+<!--  layout_centerHorizontal 水平剧中
+layout_centerVerticle 垂直居中
+-->
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+
+        android:background="#000000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        ></RelativeLayout>
+<!--   layout_marginTop相对于距离顶部有400dp
+layout_marginBottom
+layout_marginLeft
+layout_marginRight 默认
+
+-->
+    <RelativeLayout
+        android:layout_marginTop="400dp"
+        android:background="#0000ff"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        ></RelativeLayout>
+<!-- margin是外部间距
+padding内部间距
+-->
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00ffff"
+        >
+
+    </RelativeLayout>
+
+</RelativeLayout>

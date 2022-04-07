@@ -1,0 +1,2 @@
+include ':app', ':editview', ':imageview', ':progressbar', ':notifiction', ':toolbar', ':alertdialog', ':popupwindow', ':linearlayout', ':relativelayout', ':framelayout', ':tablelayout', ':gridlayout', ':constrintlayout', ':listview', ':recyclerview', ':animation', ':anitationbetween', ':valueanimation', ':layoutparams', ':viewpager', ':MVVM'
+rootProject.name='MyApplication'

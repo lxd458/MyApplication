@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        ></ProgressBar>
+   <Button
+       android:onClick="onclick"
+       android:text="点击显示隐藏进度条"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/pb2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+       android:indeterminate="true"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        ></ProgressBar>
+    <Button
+        android:onClick="load"
+        android:text="模拟下载"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+<!--indeterminate="true"进度条循环演示-->
